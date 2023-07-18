@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    color: #fff;
+
+    margin: 0;
+
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablecool {
+
+    height: 60vh;
+
+    display: flex;
+}
+
+.tablecool tbody,
+thead {
+    display: flex;
+
+    flex-direction: row;
+}
+
+.tablecool tr {
+
+
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 1%;
+
+
+}
+.someone{
+    background: linear-gradient(226deg, #8457DE 0%, #339C9A 100%);
+    border-radius: 20px;
+
+}
+
+.tablecool td {
+    border-bottom: 3px solid rgba(74, 78, 84, 0.5);
+    margin-right: 20px;
+}
